@@ -49,7 +49,7 @@ Configure flask environment:
 > $env:FLASK_APP = "get_results.py"
 ````
 
-After the setup, run the following command to launch the flask app:
+After the setup, run the following command to launch the flask app on your localhost:
 ````
 > flask run
 ````
@@ -59,7 +59,8 @@ After the setup, run the following command to launch the flask app:
 If you use this dataset, please cite the following papers:
 ~~~~
 @article{shu2018fakenewsnet,
-  title={FakeNewsNet: A Data Repository with News Content, Social Context and Dynamic Information for Studying Fake News on Social Media},
+  title={FakeNewsNet: A Data Repository with News Content,
+         Social Context and Dynamic Information for Studying Fake News on Social Media},
   author={Shu, Kai and  Mahudeswaran, Deepak and Wang, Suhang and Lee, Dongwon and Liu, Huan},
   journal={arXiv preprint arXiv:1809.01286},
   year={2018}
@@ -89,7 +90,7 @@ If you use this dataset, please cite the following papers:
 
 [Fake News Detection on Social Media: A Data Mining Perspective](https://arxiv.org/abs/1708.01967) </br>
 [Exploiting Tri-Relationship for Fake News Detection](http://arxiv.org/abs/1712.07709) </br>
-[FakeNewsTracker](http://blogtrackers.fulton.asu.edu:3000)
+[FakeNewsTracker](http://blogtrackers.fulton.asu.edu:3000) </br>
 [FakeNewsNet](https://arxiv.org/abs/1809.01286)
 
 (C) 2019 Arizona Board of Regents on Behalf of ASU
