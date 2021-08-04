@@ -1,5 +1,6 @@
 # Fake News Detection
-This project aims to detect Fake News based on a user query and display the results on a webpage using Flask.
+This project aims to detect Fake News based on a user query and display the results on a webpage using Flask. </br>
+It has also been deployed on Heroku at https://faketrack.herokuapp.com/
 
 
 ## Dataset overview
