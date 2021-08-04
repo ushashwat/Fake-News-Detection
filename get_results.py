@@ -7,7 +7,9 @@ pipeline = load("fake_news_classification.joblib")
 
 # Function to get the result for a particular text query
 def requestResults(name):
-    return str(pipeline.predict(name))
+    check = pipeline.predict(name)
+    out = "Possible Fake News" if check==1 else "Possible Real News"
+    return str(out)
 
 
 # Start flask
